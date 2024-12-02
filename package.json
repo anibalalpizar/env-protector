@@ -1,5 +1,5 @@
 {
-  "name": "env-checker",
+  "name": "env-protector",
   "version": "1.0.0",
   "description": "Environment variables validator for Node.js applications",
   "main": "dist/index.js",
@@ -19,12 +19,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anibalalpizar/env-validator.git"
+    "url": "git+https://github.com/anibalalpizar/env-protector.git"
   },
   "bugs": {
-    "url": "https://github.com/anibalalpizar/env-validator/issues"
+    "url": "https://github.com/anibalalpizar/env-protector/issues"
   },
-  "homepage": "https://github.com/anibalalpizar/env-validator#readme",
+  "homepage": "https://github.com/anibalalpizar/env-protector#readme",
   "scripts": {
     "build": "tsc",
     "test": "vitest",
