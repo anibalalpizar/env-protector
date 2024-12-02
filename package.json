@@ -1,14 +1,33 @@
 {
-  "name": "env-validator",
+  "name": "@anibalalpizar/env-validator",
   "version": "1.0.0",
   "description": "Environment variables validator for Node.js applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "private": true,
+  "private": false,
+  "keywords": [
+    "env",
+    "environment",
+    "validator",
+    "validation",
+    "typescript",
+    "dotenv"
+  ],
+  "author": "Aníbal Alpízar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anibalalpizar/env-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anibalalpizar/env-validator/issues"
+  },
+  "homepage": "https://github.com/anibalalpizar/env-validator#readme",
   "scripts": {
     "build": "tsc",
     "test": "vitest",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run test && npm run build"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
@@ -17,5 +36,10 @@
     "@types/node": "^20.8.2",
     "typescript": "^5.2.2",
     "vitest": "^0.34.6"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
 }
