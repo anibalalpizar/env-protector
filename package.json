@@ -1,5 +1,5 @@
 {
-  "name": "@anibalalpizar/env-validator",
+  "name": "env-checker",
   "version": "1.0.0",
   "description": "Environment variables validator for Node.js applications",
   "main": "dist/index.js",
@@ -11,7 +11,9 @@
     "validator",
     "validation",
     "typescript",
-    "dotenv"
+    "dotenv",
+    "node",
+    "nodejs"
   ],
   "author": "Aníbal Alpízar",
   "license": "MIT",
