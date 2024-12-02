@@ -1,0 +1,21 @@
+{
+  "name": "env-validator",
+  "version": "1.0.0",
+  "description": "Environment variables validator for Node.js applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
