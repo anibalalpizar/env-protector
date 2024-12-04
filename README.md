@@ -1,8 +1,8 @@
-# env-protector
+# 🌱 env-protector
 
 A robust environment variables validator for Node.js applications with TypeScript support.
 
-## Features
+## 🚀 Features
 
 - Type validation for environment variables
 - Support for multiple data types (string, number, boolean, url, email, array, enum, pattern)
@@ -10,13 +10,13 @@ A robust environment variables validator for Node.js applications with TypeScrip
 - TypeScript support
 - Detailed error messages
 
-## Installation
+## 📦 Installation
 
 ```bash
 npm install env-protector
 ```
 
-## Usage
+## 💻 Usage
 
 ```typescript
 const { EnvValidator } = require("env-protector");
@@ -58,7 +58,7 @@ if (!result.isValid) {
 const { PORT, DATABASE_URL, API_KEY } = result.validatedEnv;
 ```
 
-## Supported Types
+## 🔧 Supported Types
 
 - `string`: Basic string validation
 - `number`: Numeric validation with optional min/max
@@ -69,7 +69,7 @@ const { PORT, DATABASE_URL, API_KEY } = result.validatedEnv;
 - `enum`: Enumerated values validation
 - `pattern`: Regular expression pattern validation
 
-## Example with Express
+## 🌟 Example with Express
 
 ```javascript
 require("dotenv").config();
@@ -102,6 +102,6 @@ app.listen(validatedEnv.PORT, () => {
 });
 ```
 
-## License
+## 📄 License
 
 MIT
